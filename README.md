@@ -11,16 +11,19 @@ While using it in one of my own projects, I made several improvements and added 
 Resolved problems related to the image browsing functionality (Back and Next buttons).
 
 **Generate Patch Button**
-Added a button that slides a window over the image (similar to convolution), crops patches, and saves them automatically to a selected destination folder.
+Added a button that slides a window over the image (similar to convolution), crops patches, and saves them automatically to a selected destination folder - this button process only the current image.
 
 **Batch Patch Generation**
-Added another button that generates patches for all images in a selected folder and saves them automatically to a selected destination folder — very useful for large datasets.
+Added another button that generates patches for all images in a selected folder (slides a window over the image similar to convolution) and saves them automatically to a selected destination folder — very useful for large datasets.
+
+**Batch center Patch Generation**
+Added another button that generates only the center patches for all images in a selected folder  and saves them automatically to a selected destination folder.
 
 **Image Flipping**
 Added buttons to automatically generate horizontal and vertical flips of selected images and save the results.
 
 **Image Rotation**
-Included a feature that allows rotating selected images by a user-defined angle and automatically save the output to a selected destination folder.
+Added button that allows rotating all images in a selected folder by a user-defined angle and automatically save the output to a selected destination folder.
 
 **Random Dataset Split**
 Added a function to randomly move a selection of images from one folder to another,  helpful for creating random training/testing splits.
